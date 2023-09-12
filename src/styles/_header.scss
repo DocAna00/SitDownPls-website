@@ -1,0 +1,161 @@
+@import "_variables";
+@import "_mixin.scss";
+
+.header {
+
+  &__tablet,
+  &__mobile {
+    display: none;
+  }
+
+  &__top {
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: $grey-light-color;
+  }
+
+  &__tel {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 14px;
+    color: $orange-color;
+
+    transition: color .2s ease-in-out;
+  }
+
+  &__tel-icon {
+    fill: $orange-color
+  }
+
+  &__nav {
+    margin-left: auto;
+  }
+
+  &-nav {
+    &__container {
+      align-items: center;
+    }
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 64px;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 14px;
+    color: $grey-color;
+
+    transition: background-color .2s ease-in-out, color .2s ease-in-out;
+  }
+
+  &__middle {
+    padding-top: 32px;
+    margin-bottom: 32px;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__logo {
+    width: 187px;
+    height: 25px;
+
+    transition: outline .2s ease-in-out;
+  }
+
+  &-menu {
+    &__item:not(:last-child) {
+      margin-right: 93px;
+    }
+
+    &__link {
+      line-height: 21.79px;
+      white-space: nowrap;
+      transition: background-color .2s ease-in-out, color .2s ease-in-out;
+    }
+  }
+
+  &__form {
+    align-items: center;
+    width: 100%;
+  }
+
+  &__input-wrapper {
+    max-width: 1061px;
+    height: 60px;
+    width: 100%;
+  }
+
+  &__input {
+    position: relative;
+    display: block;
+    padding: 18px 32px 18px 57px;
+    border-radius: 10px;
+
+    background-image: url("../images/loupe.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left 30px center;
+  }
+
+  &__btn {
+    position: absolute;
+    top: 14px;
+    right: 32px;
+  }
+
+  &__bottom {
+    align-items: center;
+    padding-bottom: 32px;
+  }
+
+  &-user {
+    margin-left: auto;
+
+    &__list {
+      align-items: center;
+    }
+
+    &__link {
+      display: block;
+      transition: background-color .2s ease-in-out;
+    }
+
+    &__link--basket {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 41px;
+    }
+
+    &__item:not(:last-child) {
+      margin-right: 32px;
+    }
+
+    &__icon {
+      fill: $purple-color;
+    }
+  }
+
+  &__quantity {
+    position: absolute;
+    left: 0;
+    top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background-color: $orange-color;
+    color: $white-color;
+    font-size: 10px;
+  }
+}
+
+.header-menu-tablet {
+  display: none;
+}

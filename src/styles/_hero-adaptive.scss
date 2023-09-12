@@ -1,0 +1,48 @@
+@media (max-width: 1024px) {
+  .hero {
+    &__slide {
+      background-image: url("../images/banner-1024.webp");
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    &__slide {
+      background-image: url("../images/banner-768.webp");
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+
+    &__slide {
+      min-height: 210px;
+      margin-bottom: 32px;
+      background-image: url("../images/banner-320.webp");
+    }
+
+    &__container {
+      padding: 30px;
+    }
+
+    &__title {
+      max-width: 204px;
+      font-size: 20px;
+      line-height: 27.4px;
+    }
+
+    &__btn {
+      display: none;
+    }
+
+    &__btn--mobile {
+      display: block;
+      width: calc(100% - 24px);
+      align-self: center;
+    }
+  }
+}

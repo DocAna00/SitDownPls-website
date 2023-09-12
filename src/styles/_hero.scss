@@ -1,0 +1,38 @@
+@import "_variables";
+@import "_mixin.scss";
+
+.hero {
+  &__slide {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 400px;
+    @include bg-image;
+    background-image: url("../images/banner.webp");
+  }
+
+  &__title {
+    color: $white-color;
+    max-width: 587px;
+  }
+
+  &__container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  &__title {
+    margin-bottom: 49px;
+    max-width: 496px;
+    font-size: 48px;
+    line-height: 65.37px;
+    color: $grey-color;
+  }
+
+  &__btn {
+    padding: 22px 50px;
+  }
+
+  &__btn--mobile {
+    display: none;
+  }
+}

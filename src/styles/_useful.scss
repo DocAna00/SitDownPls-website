@@ -1,0 +1,55 @@
+@import "_variables";
+@import "_mixin.scss";
+
+.useful {
+  &__container {
+    position: relative;
+  }
+
+  &__wrapper {
+    min-height: 676px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__slide {
+    height: auto;
+  }
+
+  &__article {
+    display: flex;
+    max-width: 624px;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  &__image {
+    height: 426px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 100%;
+    background-color: $grey-light-color;
+  }
+
+  &__link {
+    margin-top: auto;
+    width: max-content;
+  }
+}
+
+.useful-slide-3,
+.useful-slide-4,
+.useful-slide-5 {
+  display: none;
+}
+
+.useful__slide:nth-child(1) {
+  margin-right: 32px;
+}
