@@ -13,7 +13,7 @@
     justify-content: space-between;
   }
 
-  &__slide {
+  &__picture {
     height: auto;
   }
 
@@ -30,6 +30,10 @@
     height: 426px;
   }
 
+  &__descr {
+    margin-bottom: 20px;
+  }
+
   &__info {
     display: flex;
     flex-direction: column;
@@ -44,12 +48,12 @@
   }
 }
 
-.useful-slide-3,
-.useful-slide-4,
-.useful-slide-5 {
+.useful-picture-3,
+.useful-picture-4,
+.useful-picture-5 {
   display: none;
 }
 
-.useful__slide:nth-child(1) {
+.useful__picture:nth-child(1) {
   margin-right: 32px;
 }

@@ -87,7 +87,6 @@
 
   &__period {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 624px;
   }
@@ -103,7 +102,7 @@
     display: block;
     width: 77px;
     height: 116px;
-
+    margin-right: 32px;
     background: url("../images/pencil.svg") no-repeat center;
   }
 }
@@ -118,7 +117,18 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 970px) {
+  .cooperation {
+    padding-top: 17px;
+    padding-bottom: 72px;
+  }
+
+  .cooperation__item {
+    margin-bottom: 13px;
+  }
+}
+
+@media (max-width: 600px) {
   .page-links {
     display: none;
   }
@@ -129,6 +139,10 @@
     &__subtitle {
       font-size: 16px;
       line-height: 21.79px;
+    }
+
+    &__item {
+      margin-bottom: 11px;
     }
 
     &__descr {
@@ -151,7 +165,7 @@
     }
 
     &__subtitle {
-      margin-bottom: 11px;
+      margin-bottom: 12px;
     }
 
     &__period {
@@ -161,6 +175,7 @@
     &__period::before {
       width: 36px;
       height: 54px;
+      margin-right: 16px;
       background: url("../images/pencil-mob.svg") no-repeat center;
     }
 

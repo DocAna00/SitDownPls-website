@@ -68,10 +68,10 @@
   }
 
   &-range__field {
-    padding-left: 12px;
-    margin-right: 13px;
-    width: 86px;
-    height: 30px;
+    padding-left: 8px;
+    margin-right: 6px;
+    width: 84px;
+    height: 29px;
     border: 1px solid $grey-color;
     transition: background-color .2s ease-in-out, border .2s ease-in-out;
   }
@@ -100,6 +100,7 @@
     }
 
     &__descr {
+      width: 199px;
       margin: 0;
       margin-bottom: 14px;
       font-size: 16px;

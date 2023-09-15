@@ -2,7 +2,7 @@
 @import "_mixin.scss";
 
 .special {
-  padding-top: 70px;
+  padding-top: 35px;
 
   &__container {
     position: relative;
@@ -14,7 +14,7 @@
     min-height: 510px;
   }
 
-  &__slide {
+  &__picture {
     min-width: 296px;
     min-height: 510px;
     height: auto;
@@ -30,7 +30,7 @@
     }
   }
 
-  &__slide:not(:last-child) {
+  &__picture:not(:last-child) {
     margin-right: 32px;
   }
 
@@ -79,9 +79,9 @@
     }
   }
 
-  .slide-4,
-  .slide-5,
-  .slide-6 {
+  .picture-4,
+  .picture-5,
+  .picture-6 {
     display: none;
   }
 }

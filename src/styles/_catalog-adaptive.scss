@@ -26,11 +26,15 @@
       margin-right: 4px;
     }
 
+    &-range__field {
+      margin-right: 12px;
+    }
+
     &__left {
       display: flex;
       flex-direction: row;
       margin-bottom: 19px;
-      gap: 37px;
+      gap: 36px;
     }
 
     &-block {
@@ -76,7 +80,8 @@
 
     &__left {
       flex-wrap: wrap;
-      gap: 16px;
+      row-gap: 15px;
+      column-gap: 24px;
       margin-bottom: 32px;
     }
 
@@ -85,7 +90,7 @@
     }
 
     &__title {
-      margin-bottom: 24px;
+      margin-bottom: 31px;
     }
 
     &-card {

@@ -15,8 +15,18 @@
   }
 
   &__logo {
-    display: block;
+    display: flex;
     margin-bottom: 31px;
+  }
+
+  &__pic {
+    margin-right: 32px;
+  }
+
+  &__picture {
+    flex-shrink: 0;
+    min-width: 187px;
+    min-height: 27px;
   }
 
   &__social-item:not(:last-child) {
@@ -37,6 +47,7 @@
 
   &__nav {
     display: flex;
+    flex-wrap: wrap;
   }
 
   &__subtitle {

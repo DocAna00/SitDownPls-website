@@ -2,12 +2,15 @@
 @import "_mixin.scss";
 
 .hero {
-  &__slide {
+  padding-bottom: 35px;
+
+  &__image {
     position: relative;
     box-sizing: border-box;
     min-height: 400px;
     @include bg-image;
     background-image: url("../images/banner.webp");
+    background-color: aqua;
   }
 
   &__title {

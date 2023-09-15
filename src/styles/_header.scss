@@ -17,6 +17,8 @@
 
   &__tel {
     display: flex;
+    margin-right: 20px;
+    flex-shrink: 0;
     align-items: center;
     font-size: 14px;
     line-height: 14px;
@@ -55,12 +57,14 @@
     padding-top: 32px;
     margin-bottom: 32px;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
   }
 
   &__logo {
     width: 187px;
     height: 25px;
+    flex-shrink: 0;
+    margin-right: 30px;
 
     transition: outline .2s ease-in-out;
   }
@@ -79,6 +83,7 @@
 
   &__form {
     align-items: center;
+    max-width: 1061px;
     width: 100%;
   }
 

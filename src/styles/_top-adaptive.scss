@@ -31,9 +31,13 @@
       order: 5;
     }
   }
+
+  .top-card-extra {
+    margin-right: 0;
+  }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 970px) {
   .top {
     &__list {
       grid-template-columns: repeat(6, 1fr);
@@ -60,7 +64,7 @@
 
 @media (max-width: 600px) {
   .top {
-    padding-top: 162px;
+    padding-top: 127px;
 
     &__list {
       grid-template-columns: repeat(6, 1fr);

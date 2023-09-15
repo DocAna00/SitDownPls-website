@@ -36,6 +36,8 @@
 
 @media (max-width: 600px) {
   .contacts {
+    padding-top: 33px;
+
     &__container::after {
       display: none;
     }
@@ -45,7 +47,8 @@
     }
 
     &__subtitle {
-      margin-bottom: 11px;
+      margin-bottom: 16px;
+      line-height: 18.7px;
     }
   }
 
