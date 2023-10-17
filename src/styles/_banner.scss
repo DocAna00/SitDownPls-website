@@ -1,7 +1,7 @@
 @import "_variables";
 @import "_mixin.scss";
 
-.banner {
+.article {
   padding-top: 35px;
   padding-bottom: 35px;
 
@@ -36,7 +36,7 @@
 }
 
 @media (max-width: 1024px) {
-  .banner {
+  .article {
     &__container {
       padding-left: 22px;
       padding-top: 157px;
@@ -49,13 +49,13 @@
 }
 
 @media (max-width: 970px) {
- .banner__image {
+ .article__image {
   background-image: url("../images/banner-4-768.webp");
  }
 }
 
 @media (max-width: 600px) {
-  .banner {
+  .article {
     &__image {
       background-image: url("../images/banner-4-320.webp");
       min-height: 200px;

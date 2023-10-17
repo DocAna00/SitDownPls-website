@@ -164,6 +164,7 @@
     }
 
     &-menu__list {
+      padding-bottom: 10px;
       flex-wrap: nowrap;
       overflow: auto;
     }
@@ -196,6 +197,6 @@
   }
 
   .header-menu-tablet {
-    margin-bottom: 16px;
+    margin-bottom: 6px;
   }
 }
